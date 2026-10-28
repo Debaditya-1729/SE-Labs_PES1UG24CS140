@@ -1,0 +1,6 @@
+# Python development and local generated demonstration output
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+Lab5/applicants_report.csv

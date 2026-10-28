@@ -1,0 +1,30 @@
+{
+  "analysis_date_utc": "2026-10-28T06:48:35.788525+00:00",
+  "source_repository": "https://github.com/SETAPESU26/L5_14_recruitment_tracker",
+  "source_commit": "a5dba868a578d85536d8c6b0ba7059961a7b47f0",
+  "assessed_file": "recruitment_tracker.py",
+  "assessed_file_sha256": "c2fb3406529e2c8c87da269c6ffda984bca8a46616e99924a8d049d497c0a0e3",
+  "python": "3.13.15",
+  "pylint": "4.1.3",
+  "bandit": "1.9.4",
+  "flake8": "7.4.1",
+  "before": {
+    "pylint_score": 4.47,
+    "pylint_messages": 21,
+    "bandit_findings": 3,
+    "bandit_severity": {
+      "HIGH": 0,
+      "MEDIUM": 2,
+      "LOW": 1
+    },
+    "flake8_findings": 8
+  },
+  "after": {
+    "pylint_score": 10.0,
+    "pylint_messages": 0,
+    "bandit_findings": 0,
+    "flake8_findings": 0,
+    "regression_tests_passed": 15
+  },
+  "scope": "Assigned program only; default checks, no suppressions; Pylint cache disabled."
+}

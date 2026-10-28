@@ -80,13 +80,19 @@ def shortlist(role, salary_rule):
 def update_status(applicant_id, status):
     """Update a status atomically; let database failures reach the caller."""
     with conn:
-        conn.execute("UPDATE applicants SET status = ? WHERE id = ?", (status, applicant_id))
+        conn.execute(
+            "UPDATE applicants SET status = ? WHERE id = ?",
+            (status, applicant_id),
+        )
+
 
 def export_report(path):
     """Export name, role and status as UTF-8 CSV, without a header."""
     with open(path, "w", encoding="utf-8", newline="") as report_file:
         writer = csv.writer(report_file)
-        writer.writerows(conn.execute("SELECT name, role, status FROM applicants"))
+        writer.writerows(
+            conn.execute("SELECT name, role, status FROM applicants")
+        )
 
 
 def count_by_status(status):

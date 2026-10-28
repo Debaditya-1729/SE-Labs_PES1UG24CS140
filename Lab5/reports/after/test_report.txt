@@ -1,0 +1,20 @@
+test_arithmetic_precedence_and_unary_signs (test_recruitment_tracker.RecruitmentTrackerTests.test_arithmetic_precedence_and_unary_signs) ... ok
+test_arithmetic_rejects_invalid_and_unbounded_input (test_recruitment_tracker.RecruitmentTrackerTests.test_arithmetic_rejects_invalid_and_unbounded_input) ... ok
+test_arithmetic_rejects_non_numeric_syntax (test_recruitment_tracker.RecruitmentTrackerTests.test_arithmetic_rejects_non_numeric_syntax) ... ok
+test_csv_round_trips_quotes_commas_unicode_and_newlines (test_recruitment_tracker.RecruitmentTrackerTests.test_csv_round_trips_quotes_commas_unicode_and_newlines) ... ok
+test_export_failure_reaches_caller (test_recruitment_tracker.RecruitmentTrackerTests.test_export_failure_reaches_caller) ... ok
+test_failed_update_rolls_back (test_recruitment_tracker.RecruitmentTrackerTests.test_failed_update_rolls_back) ... ok
+test_import_does_not_run_demo_or_print (test_recruitment_tracker.RecruitmentTrackerTests.test_import_does_not_run_demo_or_print) ... ok
+test_main_script_preserves_original_output_and_csv (test_recruitment_tracker.RecruitmentTrackerTests.test_main_script_preserves_original_output_and_csv) ... ok
+test_parameterized_insert_accepts_apostrophes (test_recruitment_tracker.RecruitmentTrackerTests.test_parameterized_insert_accepts_apostrophes) ... ok
+test_shortlist_filters_role (test_recruitment_tracker.RecruitmentTrackerTests.test_shortlist_filters_role) ... ok
+test_shortlist_includes_salary_boundary (test_recruitment_tracker.RecruitmentTrackerTests.test_shortlist_includes_salary_boundary) ... ok
+test_shortlist_preserves_demo_arithmetic (test_recruitment_tracker.RecruitmentTrackerTests.test_shortlist_preserves_demo_arithmetic) ... ok
+test_shortlist_returns_empty_list (test_recruitment_tracker.RecruitmentTrackerTests.test_shortlist_returns_empty_list) ... ok
+test_status_update_and_count (test_recruitment_tracker.RecruitmentTrackerTests.test_status_update_and_count) ... ok
+test_update_failure_is_not_silenced (test_recruitment_tracker.RecruitmentTrackerTests.test_update_failure_is_not_silenced) ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.054s
+
+OK
